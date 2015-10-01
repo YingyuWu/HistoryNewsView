@@ -54,6 +54,7 @@
               
             }
         }
+        console.log(newdata.length)
         var trheight = (height / maxlength) + "px";
         var newsrows = newsbody.selectAll("tr")
         .data(newdata)
