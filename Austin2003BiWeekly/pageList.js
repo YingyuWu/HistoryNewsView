@@ -18,7 +18,6 @@
 
       dataset.forEach(function(data, index){
         var currentcolom = [timeunit[index]];
-        console.log(currentcolom);
 
         var newstable = div.append("table")
         .attr("id","newstable")
